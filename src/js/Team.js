@@ -25,9 +25,6 @@ export default class Team {
       this.members.add(item);
     }
   }
-  /**
-  * Метод возвращает массив персонажей
-  */
 
   * [Symbol.iterator]() {
     const sizeSet = this.members.size;
